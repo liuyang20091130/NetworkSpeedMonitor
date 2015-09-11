@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD86185A1B8AFC9D008D920F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8618591B8AFC9D008D920F /* main.m */; };
+		CD86185D1B8AFC9D008D920F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD86185C1B8AFC9D008D920F /* AppDelegate.m */; };
+		CD8618601B8AFC9D008D920F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD86185F1B8AFC9D008D920F /* ViewController.m */; };
+		CD8618631B8AFC9D008D920F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8618611B8AFC9D008D920F /* Main.storyboard */; };
+		CD8618651B8AFC9D008D920F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD8618641B8AFC9D008D920F /* Images.xcassets */; };
+		CD8618681B8AFC9D008D920F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD8618661B8AFC9D008D920F /* LaunchScreen.xib */; };
+		CD8618741B8AFC9D008D920F /* NetworkSpeedMonitorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8618731B8AFC9D008D920F /* NetworkSpeedMonitorTests.m */; };
+		CDE604A61B8DCABA00459147 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE604A51B8DCABA00459147 /* NotificationCenter.framework */; };
+		CDE604AC1B8DCABA00459147 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE604AB1B8DCABA00459147 /* TodayViewController.m */; };
+		CDE604AE1B8DCABA00459147 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE604AD1B8DCABA00459147 /* MainInterface.storyboard */; };
+		CDE604B11B8DCABA00459147 /* NetWorkSpeedToday.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CDE604A31B8DCABA00459147 /* NetWorkSpeedToday.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CDE604B81B8DCF8300459147 /* NetWorkSpeedMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE604B61B8DCF8300459147 /* NetWorkSpeedMonitor.m */; };
+		CDE604B91B8DCF8300459147 /* NetWorkSpeedMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE604B61B8DCF8300459147 /* NetWorkSpeedMonitor.m */; };
+		CDE604BC1B8DCFA200459147 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE604BB1B8DCFA200459147 /* Reachability.m */; };
+		CDE604BD1B8DCFA200459147 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE604BB1B8DCFA200459147 /* Reachability.m */; };
+		CDE604BE1B8DD01400459147 /* ViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = CD86185E1B8AFC9D008D920F /* ViewController.h */; };
+		CDE604BF1B8DD01400459147 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD86185F1B8AFC9D008D920F /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD86186E1B8AFC9D008D920F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD86184C1B8AFC9D008D920F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD8618531B8AFC9D008D920F;
+			remoteInfo = NetworkSpeedMonitor;
+		};
+		CDE604AF1B8DCABA00459147 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD86184C1B8AFC9D008D920F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDE604A21B8DCABA00459147;
+			remoteInfo = NetWorkSpeedToday;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CDE604B51B8DCABA00459147 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CDE604B11B8DCABA00459147 /* NetWorkSpeedToday.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CD8618541B8AFC9D008D920F /* NetworkSpeedMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkSpeedMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8618581B8AFC9D008D920F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD8618591B8AFC9D008D920F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD86185B1B8AFC9D008D920F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD86185C1B8AFC9D008D920F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD86185E1B8AFC9D008D920F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD86185F1B8AFC9D008D920F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD8618621B8AFC9D008D920F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD8618641B8AFC9D008D920F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD8618671B8AFC9D008D920F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CD86186D1B8AFC9D008D920F /* NetworkSpeedMonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkSpeedMonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8618721B8AFC9D008D920F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD8618731B8AFC9D008D920F /* NetworkSpeedMonitorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkSpeedMonitorTests.m; sourceTree = "<group>"; };
+		CDE604A31B8DCABA00459147 /* NetWorkSpeedToday.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NetWorkSpeedToday.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE604A51B8DCABA00459147 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		CDE604A91B8DCABA00459147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDE604AA1B8DCABA00459147 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		CDE604AB1B8DCABA00459147 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		CDE604AD1B8DCABA00459147 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		CDE604B61B8DCF8300459147 /* NetWorkSpeedMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkSpeedMonitor.m; sourceTree = "<group>"; };
+		CDE604B71B8DCF8300459147 /* NetWorkSpeedMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkSpeedMonitor.h; sourceTree = "<group>"; };
+		CDE604BA1B8DCFA200459147 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		CDE604BB1B8DCFA200459147 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD8618511B8AFC9D008D920F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD86186A1B8AFC9D008D920F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE604A01B8DCABA00459147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE604A61B8DCABA00459147 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD86184B1B8AFC9D008D920F = {
+			isa = PBXGroup;
+			children = (
+				CD8618561B8AFC9D008D920F /* NetworkSpeedMonitor */,
+				CD8618701B8AFC9D008D920F /* NetworkSpeedMonitorTests */,
+				CDE604A71B8DCABA00459147 /* NetWorkSpeedToday */,
+				CDE604A41B8DCABA00459147 /* Frameworks */,
+				CD8618551B8AFC9D008D920F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD8618551B8AFC9D008D920F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD8618541B8AFC9D008D920F /* NetworkSpeedMonitor.app */,
+				CD86186D1B8AFC9D008D920F /* NetworkSpeedMonitorTests.xctest */,
+				CDE604A31B8DCABA00459147 /* NetWorkSpeedToday.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD8618561B8AFC9D008D920F /* NetworkSpeedMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				CDE604BA1B8DCFA200459147 /* Reachability.h */,
+				CDE604BB1B8DCFA200459147 /* Reachability.m */,
+				CDE604B61B8DCF8300459147 /* NetWorkSpeedMonitor.m */,
+				CDE604B71B8DCF8300459147 /* NetWorkSpeedMonitor.h */,
+				CD86185B1B8AFC9D008D920F /* AppDelegate.h */,
+				CD86185C1B8AFC9D008D920F /* AppDelegate.m */,
+				CD86185E1B8AFC9D008D920F /* ViewController.h */,
+				CD86185F1B8AFC9D008D920F /* ViewController.m */,
+				CD8618611B8AFC9D008D920F /* Main.storyboard */,
+				CD8618641B8AFC9D008D920F /* Images.xcassets */,
+				CD8618661B8AFC9D008D920F /* LaunchScreen.xib */,
+				CD8618571B8AFC9D008D920F /* Supporting Files */,
+			);
+			path = NetworkSpeedMonitor;
+			sourceTree = "<group>";
+		};
+		CD8618571B8AFC9D008D920F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD8618581B8AFC9D008D920F /* Info.plist */,
+				CD8618591B8AFC9D008D920F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD8618701B8AFC9D008D920F /* NetworkSpeedMonitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD8618731B8AFC9D008D920F /* NetworkSpeedMonitorTests.m */,
+				CD8618711B8AFC9D008D920F /* Supporting Files */,
+			);
+			path = NetworkSpeedMonitorTests;
+			sourceTree = "<group>";
+		};
+		CD8618711B8AFC9D008D920F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD8618721B8AFC9D008D920F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDE604A41B8DCABA00459147 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDE604A51B8DCABA00459147 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDE604A71B8DCABA00459147 /* NetWorkSpeedToday */ = {
+			isa = PBXGroup;
+			children = (
+				CDE604AA1B8DCABA00459147 /* TodayViewController.h */,
+				CDE604AB1B8DCABA00459147 /* TodayViewController.m */,
+				CDE604AD1B8DCABA00459147 /* MainInterface.storyboard */,
+				CDE604A81B8DCABA00459147 /* Supporting Files */,
+			);
+			path = NetWorkSpeedToday;
+			sourceTree = "<group>";
+		};
+		CDE604A81B8DCABA00459147 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDE604A91B8DCABA00459147 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD8618531B8AFC9D008D920F /* NetworkSpeedMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD8618771B8AFC9D008D920F /* Build configuration list for PBXNativeTarget "NetworkSpeedMonitor" */;
+			buildPhases = (
+				CD8618501B8AFC9D008D920F /* Sources */,
+				CD8618511B8AFC9D008D920F /* Frameworks */,
+				CD8618521B8AFC9D008D920F /* Resources */,
+				CDE604B51B8DCABA00459147 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDE604B01B8DCABA00459147 /* PBXTargetDependency */,
+			);
+			name = NetworkSpeedMonitor;
+			productName = NetworkSpeedMonitor;
+			productReference = CD8618541B8AFC9D008D920F /* NetworkSpeedMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD86186C1B8AFC9D008D920F /* NetworkSpeedMonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD86187A1B8AFC9D008D920F /* Build configuration list for PBXNativeTarget "NetworkSpeedMonitorTests" */;
+			buildPhases = (
+				CD8618691B8AFC9D008D920F /* Sources */,
+				CD86186A1B8AFC9D008D920F /* Frameworks */,
+				CD86186B1B8AFC9D008D920F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD86186F1B8AFC9D008D920F /* PBXTargetDependency */,
+			);
+			name = NetworkSpeedMonitorTests;
+			productName = NetworkSpeedMonitorTests;
+			productReference = CD86186D1B8AFC9D008D920F /* NetworkSpeedMonitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDE604A21B8DCABA00459147 /* NetWorkSpeedToday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDE604B21B8DCABA00459147 /* Build configuration list for PBXNativeTarget "NetWorkSpeedToday" */;
+			buildPhases = (
+				CDE6049F1B8DCABA00459147 /* Sources */,
+				CDE604A01B8DCABA00459147 /* Frameworks */,
+				CDE604A11B8DCABA00459147 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetWorkSpeedToday;
+			productName = NetWorkSpeedToday;
+			productReference = CDE604A31B8DCABA00459147 /* NetWorkSpeedToday.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD86184C1B8AFC9D008D920F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "刘洋";
+				TargetAttributes = {
+					CD8618531B8AFC9D008D920F = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					CD86186C1B8AFC9D008D920F = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = CD8618531B8AFC9D008D920F;
+					};
+					CDE604A21B8DCABA00459147 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = CD86184F1B8AFC9D008D920F /* Build configuration list for PBXProject "NetworkSpeedMonitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD86184B1B8AFC9D008D920F;
+			productRefGroup = CD8618551B8AFC9D008D920F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD8618531B8AFC9D008D920F /* NetworkSpeedMonitor */,
+				CD86186C1B8AFC9D008D920F /* NetworkSpeedMonitorTests */,
+				CDE604A21B8DCABA00459147 /* NetWorkSpeedToday */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD8618521B8AFC9D008D920F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8618631B8AFC9D008D920F /* Main.storyboard in Resources */,
+				CD8618681B8AFC9D008D920F /* LaunchScreen.xib in Resources */,
+				CD8618651B8AFC9D008D920F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD86186B1B8AFC9D008D920F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE604A11B8DCABA00459147 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE604AE1B8DCABA00459147 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD8618501B8AFC9D008D920F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8618601B8AFC9D008D920F /* ViewController.m in Sources */,
+				CD86185D1B8AFC9D008D920F /* AppDelegate.m in Sources */,
+				CD86185A1B8AFC9D008D920F /* main.m in Sources */,
+				CDE604B81B8DCF8300459147 /* NetWorkSpeedMonitor.m in Sources */,
+				CDE604BC1B8DCFA200459147 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8618691B8AFC9D008D920F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8618741B8AFC9D008D920F /* NetworkSpeedMonitorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE6049F1B8DCABA00459147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE604BE1B8DD01400459147 /* ViewController.h in Sources */,
+				CDE604BF1B8DD01400459147 /* ViewController.m in Sources */,
+				CDE604AC1B8DCABA00459147 /* TodayViewController.m in Sources */,
+				CDE604BD1B8DCFA200459147 /* Reachability.m in Sources */,
+				CDE604B91B8DCF8300459147 /* NetWorkSpeedMonitor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD86186F1B8AFC9D008D920F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD8618531B8AFC9D008D920F /* NetworkSpeedMonitor */;
+			targetProxy = CD86186E1B8AFC9D008D920F /* PBXContainerItemProxy */;
+		};
+		CDE604B01B8DCABA00459147 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDE604A21B8DCABA00459147 /* NetWorkSpeedToday */;
+			targetProxy = CDE604AF1B8DCABA00459147 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD8618611B8AFC9D008D920F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD8618621B8AFC9D008D920F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD8618661B8AFC9D008D920F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD8618671B8AFC9D008D920F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD8618751B8AFC9D008D920F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD8618761B8AFC9D008D920F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD8618781B8AFC9D008D920F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = NetworkSpeedMonitor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD8618791B8AFC9D008D920F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = NetworkSpeedMonitor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD86187B1B8AFC9D008D920F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NetworkSpeedMonitorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetworkSpeedMonitor.app/NetworkSpeedMonitor";
+			};
+			name = Debug;
+		};
+		CD86187C1B8AFC9D008D920F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NetworkSpeedMonitorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetworkSpeedMonitor.app/NetworkSpeedMonitor";
+			};
+			name = Release;
+		};
+		CDE604B31B8DCABA00459147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"\"${PROJECT_DIR}/NetworkSpeedMonitor/\"",
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = NetWorkSpeedToday/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CDE604B41B8DCABA00459147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"\"${PROJECT_DIR}/NetworkSpeedMonitor/\"",
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = NetWorkSpeedToday/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD86184F1B8AFC9D008D920F /* Build configuration list for PBXProject "NetworkSpeedMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8618751B8AFC9D008D920F /* Debug */,
+				CD8618761B8AFC9D008D920F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD8618771B8AFC9D008D920F /* Build configuration list for PBXNativeTarget "NetworkSpeedMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8618781B8AFC9D008D920F /* Debug */,
+				CD8618791B8AFC9D008D920F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD86187A1B8AFC9D008D920F /* Build configuration list for PBXNativeTarget "NetworkSpeedMonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD86187B1B8AFC9D008D920F /* Debug */,
+				CD86187C1B8AFC9D008D920F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDE604B21B8DCABA00459147 /* Build configuration list for PBXNativeTarget "NetWorkSpeedToday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE604B31B8DCABA00459147 /* Debug */,
+				CDE604B41B8DCABA00459147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD86184C1B8AFC9D008D920F /* Project object */;
+}
